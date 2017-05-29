@@ -1,1 +1,67 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 5rem;
+  margin-bottom: 60px;
+}
+
+.jumbotron{
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+h1, h2, h3, h4, h5 {
+	font-family: 'Josefin Slab', serif;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.tagline {
+	color: #696969;
+}
+
+#mainContent {
+	margin: 15px;
+
+}
+
+.introduction {
+	text-align: center;
+	line-height: 1.2;
+    font-size: 30px;
+    margin: 8%;
+
+}
+.contentIntro {
+	line-height: 1.4;
+	font-size: 1em;
+	text-align: left;
+	max-width: 600px;
+
+}
+.templateDesign {
+	margin-top: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.tempName {
+	color: #696969;
+    font-size: 18px; 
+    line-height: 1.8;
+}
+
+.description {
+    margin: 15 5 15 5;
+    font-size: 16px;
+    line-height: 1.5;
+}

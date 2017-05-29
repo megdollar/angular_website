@@ -1,0 +1,104 @@
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 1000px
+}
+    
+/* Set 100% height */
+.sidenav {
+    padding-top: 20px;
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+.navCenter {
+    text-align: center;
+}
+
+.skillsNav li, .sidenavContact li, .navMenu p{
+    display: block;
+}
+
+.sidenavContact, .skillsNav {
+    list-style: none;
+    padding: 0;
+}
+.skillsLabel{
+    color: #696969;
+}
+
+.listItem{
+    list-style-position: inside;
+}
+	
+.list-group-item {
+   	border-color: #caebf2;
+}
+    
+p {
+        
+line-height: 1.6;
+    
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+	color: #696969;
+}
+
+li, a {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 500px){
+     .badge {
+      	display: none;
+      }
+}
+    
+@media screen and (max-width: 767px) {
+    .navAbout{
+        display: table-header-group;
+    }
+    .navMenu {
+        display: table-row;
+        margin-top: 15px;
+    }
+    .main {
+        display: table-footer-group;
+    }
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {
+      	height:auto;
+      } 
+
+      .img-thumbnail {
+      	height: 100px;
+      	width: 80px;
+      	border-radius: 150px;
+        margin-top: 15px;
+      }
+  
+      .skillsNav li, .sidenavContact li, .navMenu p{
+      	display: inline;
+      	padding-right: 16px;
+      }
+     
+          .footer {
+    	clear: both;
+    }
+}
+
+
+
+
+
